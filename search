@@ -1,0 +1,14 @@
+list=[5,7,10,12,15]
+print("LIST: ",list)
+x=int(input("Enter item to search: "))
+i=0
+flag=0
+while i<len(list):
+    if list[i]==x:
+        flag=1
+        break
+    i=i+1
+if flag==1:
+    print("ITEM FOUND AT POSITION: ",i+1)
+else:
+    print("ITEM NOT FOUND")
